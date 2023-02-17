@@ -38,4 +38,16 @@ const animations: LottieContainerProps[] = [
     author: 'Jacques Mauriac',
     path: require('../../assets/confetti.json'),
   },
+  {
+    name: 'Wave Loading',
+    source: 'https://lottiefiles.com/196-material-wave-loading',
+    author: 'Lottie Files',
+    path: require('../../assets/waveLoading.json'),
+  },
+  {
+    name: 'Hearts Feedback',
+    source: 'https://lottiefiles.com/81755-hearts-feedback',
+    author: 'Andrew Mckay',
+    path: require('../../assets/hearts.json'),
+  },
 ];
