@@ -3,19 +3,17 @@ import { ScrollView, StyleSheet, SafeAreaView, Text } from 'react-native';
 import LottieContainer, {
   LottieContainerProps,
 } from '../components/LottieContainer';
-// import Animated, { FadeIn } from 'react-native-reanimated';
+import Animated, { FadeIn } from 'react-native-reanimated';
 
 export default function Home(): JSX.Element {
   return (
     <SafeAreaView style={{ backgroundColor: '#F6AD76' }}>
-      {/* <Animated.ScrollView entering={FadeIn.duration(500)}> */}
-      <ScrollView>
+      <Animated.ScrollView entering={FadeIn.duration(500)}>
         <Text style={styles.title}>Welcome Back!</Text>
         {animations.map((animation, index) => (
           <LottieContainer key={index} {...animation} />
         ))}
-      </ScrollView>
-      {/* </Animated.ScrollView> */}
+      </Animated.ScrollView>
     </SafeAreaView>
   );
 }

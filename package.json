@@ -12,7 +12,8 @@
   "dependencies": {
     "lottie-react-native": "^5.1.5",
     "react": "18.2.0",
-    "react-native": "0.71.3"
+    "react-native": "0.71.3",
+    "react-native-reanimated": "^2.14.4"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
